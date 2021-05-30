@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Praktinis_darbas_4.1</string>
+    <string name="Loading">Loading...</string>
+    <string name="ListCur">List of currencies</string>
 </resources>

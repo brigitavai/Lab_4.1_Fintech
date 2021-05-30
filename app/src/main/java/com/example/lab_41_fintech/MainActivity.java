@@ -32,13 +32,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onBtnDownloadClick(View view) {
-        this.tvContent.setText("Loading...");
+        this.tvContent.setText(getResources().getString(R.string.Loading));
 
         {
             new DataLoader() {
                 @Override
                 public void onPostExecute(String result) {
-                    tvContent.setText("List of currencies");
+                    tvContent.setText(getResources().getString(R.string.ListCur));
 
                     String[]NewList = result.split(";");
 
